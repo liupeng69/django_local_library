@@ -39,11 +39,8 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
 # ALLOWED_HOSTS = []
-
 # You must set settings.ALLOWED_HOSTS if DEBUG is False.
-# DEBUG = False
 # ALLOWED_HOSTS = ['*']
-
 # During development, you can instead set just the base URL
 # ALLOWED_HOSTS = ['.pythonanywhere.com','127.0.0.1']
 ALLOWED_HOSTS = ['plonline.pythonanywhere.com', '127.0.0.1']
