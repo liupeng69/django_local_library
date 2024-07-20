@@ -42,13 +42,13 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 # You must set settings.ALLOWED_HOSTS if DEBUG is False.
 # ALLOWED_HOSTS = ['*']
 # During development, you can instead set just the base URL
-# ALLOWED_HOSTS = ['.pythonanywhere.com','127.0.0.1']
-ALLOWED_HOSTS = ['plonline.pythonanywhere.com', '127.0.0.1']
+# ALLOWED_HOSTS = ['.railway.app', '.pythonanywhere.com','127.0.0.1']
+ALLOWED_HOSTS = ['web-production-b41d8.up.railway.app', 'plonline.pythonanywhere.com', '127.0.0.1']
 
 
 # During development/for this tutorial you can instead set just the base URL
-# CSRF_TRUSTED_ORIGINS = ['https://*.pythonanywhere.com']
-CSRF_TRUSTED_ORIGINS = ['https://plonline.pythonanywhere.com']
+# CSRF_TRUSTED_ORIGINS = ['https://*.railway.app', 'https://*.pythonanywhere.com']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-b41d8.up.railway.app', 'https://plonline.pythonanywhere.com']
 
 
 # Application definition
